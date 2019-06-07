@@ -8,6 +8,10 @@ class Movie extends Component {
         <td>{this.props.movie.genre.name}</td>
         <td>{this.props.movie.numberInStock}</td>
         <td>{this.props.movie.dailyRentalRate}</td>
+
+        <td>
+          <i className="far fa-heart" />
+        </td>
         <td>
           <button
             className="btn btn-danger btn-sm m-2"
