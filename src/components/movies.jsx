@@ -7,6 +7,8 @@ import ListGroup from "./listGroup";
 import { paginate } from "../utilities/paginate";
 import _ from "lodash"; // Package used for mapping array !
 
+// Test for github
+
 class Movies extends Component {
   state = {
     movies: [],
